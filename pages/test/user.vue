@@ -20,7 +20,7 @@
     },
     methods: {
       to() {
-        this.$router.push('/product/index')
+        this.$router.push('/product')
       }
     }
   };
