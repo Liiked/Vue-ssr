@@ -2,6 +2,7 @@
   <div>
     这是用户页面
     {{name}}
+    <button>前往其他页面</button>
   </div>
 </template>
 <script>
@@ -16,6 +17,11 @@
       return {
 
       };
+    },
+    methods: {
+      to() {
+        this.$router.push('/product/index')
+      }
     }
   };
 </script>
